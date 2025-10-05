@@ -1,5 +1,5 @@
-package module1.chapter5_collections.utils
-import module1.chapter5_collections.util.Calculator
+package module1.chapter5_collections.util
+//import module1.chapter5_collections.util.Calculator
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

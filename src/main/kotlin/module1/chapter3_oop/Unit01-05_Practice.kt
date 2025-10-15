@@ -93,4 +93,4 @@ Create a class `Recipe` with:
 In your main function, print the recipe name and call `printIngredients()`.
 Try to access `ingredients` from another file in the same module and from a different module.*/
 
-/** See the Recipe object under 'Recipies' for solution */
+/** See the Recipe object under 'Recipes' for solution */

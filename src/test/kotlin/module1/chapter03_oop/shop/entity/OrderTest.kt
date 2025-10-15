@@ -9,10 +9,6 @@ import shop.entity.User
 import shop.entity.status.OrderStatus
 import kotlin.test.*
 
-//import kotlin.test.assertEquals
-//import kotlin.test.assertFalse
-//import kotlin.test.assertTrue
-
 class OrderTest {
     // Helper to create a sample user for Orders
     private fun makeUser(): User {

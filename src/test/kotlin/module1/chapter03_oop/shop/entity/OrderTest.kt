@@ -21,7 +21,7 @@ class OrderTest {
         return User(1, "UserName", "Test@test.com", "+1234567890", address, account)
     }
 
-    //Helper to provice a common list of products
+    //Helper to provide a common list of products
     private fun products(): List<Product>   {
         return listOf(
             Product(1, "Product 1", 10.0),

@@ -1,4 +1,4 @@
-package kotlin.module1.chapter3_oop
+package module1.chapter3_oop
 /**
 Unit 6: Inheritance Practice Task
 Task 1: University Accounts

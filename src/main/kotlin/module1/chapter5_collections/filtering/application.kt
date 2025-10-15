@@ -1,5 +1,10 @@
 package module1.chapter5_collections.filtering
 
+import abstractClass.entity.impl.Circle
+import abstractClass.entity.impl.Rectangle
+import abstractClass.entity.Figure
+import kotlin.time.measureTimedValue
+
 fun main()  {
     //filter()
     var people = listOf("Tom", "Sam", "Mike", "Bob", "Alice")
@@ -31,6 +36,12 @@ fun main()  {
     println(cars)
     val filteredCars = cars.filterNotNull()
     println(filteredCars)
+
+    val square = Circle("Circle", 2F)
+    val rectangle = Rectangle("Rectangle", 1F, 2F)
+    val figures: List<Figure> = listOf(square, rectangle)
+    val filteredFigure = figures.filterIsInstance<Figure>()
+    println(filteredFigure)
 
 }
 

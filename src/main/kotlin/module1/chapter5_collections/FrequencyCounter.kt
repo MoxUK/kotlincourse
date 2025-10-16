@@ -1,4 +1,3 @@
-//File touched for update flag
 package module1.chapter5_collections
 
 /** 2. Frequency Counter

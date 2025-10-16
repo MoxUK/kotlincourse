@@ -1,4 +1,3 @@
-/** file touched for update flag */
 package books
 
 class Book (val _title: String,

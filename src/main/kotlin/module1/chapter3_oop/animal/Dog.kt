@@ -1,4 +1,3 @@
-/** file touched for update flag */
 package animal
 
 class Dog(val _name: String,

@@ -13,10 +13,15 @@ package module1.chapter5_collections
  * Each student has a `name` and a list of `grades` (Int).
  * Write a function inside the class that calculates the average grade of the student.
  *
+ * See StudentGrades.kt for solution
+ *
+ *
  * ### 2. Math Utilities
  *
  * Create a class called `MathUtils`.
  * Add a function that takes a list of integers and returns the sum of all even numbers in the list.
+ *
+ *  See util/MathUtils class for solution
  *
  * ---
  *
@@ -27,12 +32,14 @@ package module1.chapter5_collections
  * Create a class called `NameCollector`.
  * Add a function that takes a list of names (String) and returns a set with only unique names.
  *
+ *  See UniqueNames.kt for solution
+ *
  * ### 2. Duplicate Checker
  *
  * Create a class called `DuplicateChecker`.
  * Write a function that takes a set of numbers and a number to check, and returns `true` if the number is already in the set, otherwise `false`.
  *
- * ---
+ * See DuplicateChecker.kt for solution
  *
  * ## Map Tasks
  *
@@ -42,10 +49,14 @@ package module1.chapter5_collections
  * Add a function to add a contact (name and phone number) to the phone book (use a map).
  * Also, add a function to find a phone number by name.
  *
+ * See PhoneBook.kt for solution
+ *
  * ### 2. Frequency Counter
  *
  * Create a class called `FrequencyCounter`.
  * Write a function that takes a list of words and returns a map with each word and the number of times it appears in the list.
+ *
+ * See FrequencyCounter.kt for solution
  *
  * ---
  */

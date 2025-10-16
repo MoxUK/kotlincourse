@@ -1,4 +1,3 @@
-/** file touched for update flag */
 package animal
 
 import social.User

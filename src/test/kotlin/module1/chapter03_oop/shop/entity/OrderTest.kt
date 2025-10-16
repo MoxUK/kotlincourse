@@ -1,11 +1,14 @@
 package module1.chapter3_oop.shop.entity
 import org.junit.jupiter.api.Test
 import org.junit.platform.engine.TestExecutionResult
-import shop.entity.Address
-import shop.entity.BankAccount
-import shop.entity.Order
-import shop.entity.Product
-import shop.entity.User
+import shop.entity.*
+//import shop.entity.Address
+//import shop.entity.BankAccount
+//import shop.entity.ExpressOrder
+//import shop.entity.GiftOrder
+//import shop.entity.Order
+//import shop.entity.Product
+//import shop.entity.User
 import shop.entity.status.OrderStatus
 import kotlin.test.*
 
@@ -35,6 +38,34 @@ class OrderTest {
         assertEquals(12.0, order.totalAmount())
         println("Check orderstatus is correct")
         assertEquals(OrderStatus.PENDING, order.getStatus())
+    }
+
+    /** Test that an express order total includes the extra fee */
+    @Test
+    fun testExpressOrderTotalIncludesExtraFee()   {
+        val user = makeUser()
+        val products = products()
+        val expressFee: Double = 5.99
+        val expressOrder = ExpressOrder(1, user, products, user.address, expressFee)
+        println("Check the total Express amount incl. fee is correct")
+        assertEquals(17.99, expressOrder.totalAmount(), 0.01)
+        println("Check Express order status is correct")
+        assertEquals(OrderStatus.PENDING, expressOrder.getStatus())
+    }
+
+    /** Test that displayInfo for gift order includes the gift message */
+    @Test
+    fun testGiftOrderDisplayInludesMessage()    {
+        val user = makeUser()
+        val products = products()
+        val expressFee: Double = 5.99
+        val giftMessage = "Happy Birthday"
+        val giftOrder = GiftOrder(1, user, products, user.address, expressFee, giftMessage)
+        println("Check the gift message is included in the order")
+
+        //TODO check captureOutput()
+        giftOrder.displayInfo()
+
     }
 
 }

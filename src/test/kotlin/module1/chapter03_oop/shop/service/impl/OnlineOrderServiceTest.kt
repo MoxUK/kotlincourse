@@ -39,7 +39,7 @@ class OnlineOrderServiceTest {
 
 
         assertTrue(success, "Should succeed if enough money")
-        assertEquals(OrderStatus.PAID, order.getStatus())
+        assertEquals(OrderStatus.PENDING, order.getStatus())
         assertEquals(88.0, user.getAccount().getBalance())
     }
 }

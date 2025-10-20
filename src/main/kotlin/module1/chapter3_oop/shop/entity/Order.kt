@@ -30,6 +30,7 @@ open class Order(
     }
 
     fun getStatus(): OrderStatus {
+        println("Order status: $status")
         return status
     }
 

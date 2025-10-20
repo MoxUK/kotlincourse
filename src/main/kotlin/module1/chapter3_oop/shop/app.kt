@@ -48,6 +48,7 @@ fun main()  {
     order.track()
 
     user.showBalance()
+    order.getStatus()
     println("------------------")
     orderService.cancelOrder(order)
     user.showBalance()

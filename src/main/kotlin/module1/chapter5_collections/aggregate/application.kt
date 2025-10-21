@@ -7,8 +7,8 @@ fun main()  {
     val people = listOf("Tom", "Mike", "Bob", "Sam", "Aaron", "Alice")
     val numbers = listOf(3, 5, 2, -4, -6, 9, 1, 4)
 
-    println(numbers.minOrNull()) //lowest number
-    println(numbers.maxOrNull()) //highest number
+    println(numbers.minOrNull()) //lowest number.
+    println(numbers.maxOrNull()) //highest number.
 
     println(people.minOrNull()) //name with first letter in list
     println(people.maxOrNull()) //name with last letter in list

@@ -34,12 +34,12 @@ Write a function that takes a list of strings and returns a new list with all st
 2. Double Numbers
 Create a function that takes a list of integers and returns a list of their doubles.
 
-Unit 9: Grouping
-1. Group by First Letter
-Write a function that groups a list of words by their first letter and returns a map.
-
-2. Group by Length
-Create a function that takes a list of words and groups them by length.
+//Unit 9: Grouping
+//1. Group by First Letter
+//Write a function that groups a list of words by their first letter and returns a map.
+//
+//2. Group by Length
+//Create a function that takes a list of words and groups them by length.
 
 Unit 10: Sorting
 1. Sort By Length
